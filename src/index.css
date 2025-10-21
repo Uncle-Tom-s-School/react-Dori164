@@ -29,9 +29,22 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  img{
-    width: 100%;
-  }
+}
+
+.beerCard img{
+  width: 100%;
+  display: block;
+  object-fit: contain;
+  max-height: 160px;
+}
+
+.beerCard h4{
+  font-size: 0.95rem;
+  margin-top: 10px;
+}
+
+.beerCard p{
+  color: #222;
 }
 
 .notAvailable{
